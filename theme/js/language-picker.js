@@ -20,6 +20,9 @@
           <li role="none"><button role="menuitem" class="theme">
               <a id="es">Español</a>
           </button></li>
+          <li role="none"><button role="menuitem" class="theme">
+              <a id="fa">فارسی</a>
+          </button></li>
         </ul>
     `);
 
