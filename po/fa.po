@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rust By Example\n"
 "POT-Creation-Date: 2025-10-20T17:46:34+03:30\n"
-"PO-Revision-Date: 2025-10-21 17:56+0330\n"
+"PO-Revision-Date: 2025-10-21 19:04+0330\n"
 "Last-Translator: hikari <me@metantesan.com>\n"
 "Language-Team: Persian\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "آرایه‌ها و بخش‌ها"
 
 #: src/SUMMARY.md:18 src/custom_types.md:1
 msgid "Custom Types"
-msgstr "نوع سفارشی"
+msgstr "تایپ‌های سفارشی"
 
 #: src/SUMMARY.md:19 src/custom_types/structs.md:1
 msgid "Structures"
@@ -77,7 +77,7 @@ msgstr "ساختار ها"
 
 #: src/SUMMARY.md:20 src/custom_types/enum.md:1
 msgid "Enums"
-msgstr "نوع شمارشی"
+msgstr "تایپ شمارشی"
 
 #: src/SUMMARY.md:21 src/custom_types/enum/enum_use.md:1
 msgid "use"
@@ -123,7 +123,7 @@ msgstr "تایپ‌ها"
 
 #: src/SUMMARY.md:33 src/types/cast.md:1
 msgid "Casting"
-msgstr "تبدیل نوع"
+msgstr "تبدیل تایپ"
 
 #: src/SUMMARY.md:34 src/types/literals.md:1
 msgid "Literals"
@@ -484,300 +484,300 @@ msgstr "رهاسازی"
 
 #: src/SUMMARY.md:142 src/trait/iter.md:1
 msgid "Iterators"
-msgstr ""
+msgstr "تکرارشونده‌ها"
 
 #: src/SUMMARY.md:143 src/trait/impl_trait.md:1
 msgid "`impl Trait`"
-msgstr ""
+msgstr "`impl Trait`"
 
 #: src/SUMMARY.md:144 src/trait/clone.md:1
 msgid "Clone"
-msgstr ""
+msgstr "کپی کردن"
 
 #: src/SUMMARY.md:145 src/trait/supertraits.md:1
 msgid "Supertraits"
-msgstr ""
+msgstr "ابر traitها"
 
 #: src/SUMMARY.md:146 src/trait/disambiguating.md:1
 msgid "Disambiguating overlapping traits"
-msgstr ""
+msgstr "رفع ابهام در Trait‌های هم‌پوشان"
 
 #: src/SUMMARY.md:148
 msgid "macro_rules!"
-msgstr ""
+msgstr "macro_rules!"
 
 #: src/SUMMARY.md:149 src/macros/syntax.md:1
 msgid "Syntax"
-msgstr ""
+msgstr "قوائد نگارشی"
 
 #: src/SUMMARY.md:150 src/macros/designators.md:1
 msgid "Designators"
-msgstr ""
+msgstr "شناساگرها"
 
 #: src/SUMMARY.md:151 src/macros/overload.md:1
 msgid "Overload"
-msgstr ""
+msgstr "بارگذاری بیش از حد"
 
 #: src/SUMMARY.md:152 src/macros/repeat.md:1
 msgid "Repeat"
-msgstr ""
+msgstr "تکرار"
 
 #: src/SUMMARY.md:153 src/macros/dry.md:1
 msgid "DRY (Don't Repeat Yourself)"
-msgstr ""
+msgstr "خودت رو تکرار نکن (DRY)"
 
 #: src/SUMMARY.md:154
 msgid "DSL (Domain Specific Languages)"
-msgstr ""
+msgstr "زبان‌های خاص حوزه (DSL)"
 
 #: src/SUMMARY.md:155
 msgid "Variadics"
-msgstr ""
+msgstr "چند‌تایی‌ها"
 
 #: src/SUMMARY.md:157 src/error.md:1
 msgid "Error handling"
-msgstr ""
+msgstr "مدیریت خطاها"
 
 #: src/SUMMARY.md:158 src/error/panic.md:1
 msgid "`panic`"
-msgstr ""
+msgstr "`panic`"
 
 #: src/SUMMARY.md:159
 msgid "`abort` & `unwind`"
-msgstr ""
+msgstr "`abort` & `unwind`"
 
 #: src/SUMMARY.md:160 src/error/option_unwrap.md:1
 msgid "`Option` & `unwrap`"
-msgstr ""
+msgstr "`Option` & `unwrap`"
 
 #: src/SUMMARY.md:161 src/error/option_unwrap/question_mark.md:1
 msgid "Unpacking options with `?`"
-msgstr ""
+msgstr "باز کردن مقادیر `options` با `?`"
 
 #: src/SUMMARY.md:162 src/error/option_unwrap/map.md:1
 msgid "Combinators: `map`"
-msgstr ""
+msgstr "ترکیب‌کننده‌ها: `map`"
 
 #: src/SUMMARY.md:163 src/error/option_unwrap/and_then.md:1
 msgid "Combinators: `and_then`"
-msgstr ""
+msgstr "ترکیب‌کننده‌ها: `and_then`"
 
 #: src/SUMMARY.md:164
 msgid "Defaults: `or`, `or_else`, `get_or_insert`, `get_or_insert_with`"
-msgstr ""
+msgstr "مقادیر پیش‌فرض: `or`، `or_else`، `get_or_insert`، `get_or_insert_with`"
 
 #: src/SUMMARY.md:165 src/SUMMARY.md:183 src/error/result.md:1
 #: src/std/result.md:1
 msgid "`Result`"
-msgstr ""
+msgstr "`Result`"
 
 #: src/SUMMARY.md:166 src/error/result/result_map.md:1
 msgid "`map` for `Result`"
-msgstr ""
+msgstr "`map` برای `Result`"
 
 #: src/SUMMARY.md:167 src/error/result/result_alias.md:1
 msgid "aliases for `Result`"
-msgstr ""
+msgstr "نام‌های مستعار برای `Result`"
 
 #: src/SUMMARY.md:168 src/error/result/early_returns.md:1
 msgid "Early returns"
-msgstr ""
+msgstr "بازگشت زودهنگام"
 
 #: src/SUMMARY.md:169 src/error/result/enter_question_mark.md:1
 msgid "Introducing `?`"
-msgstr ""
+msgstr "معرفی `?`"
 
 #: src/SUMMARY.md:170 src/error/multiple_error_types.md:1
 msgid "Multiple error types"
-msgstr ""
+msgstr "چند نوع خطا"
 
 #: src/SUMMARY.md:171 src/error/multiple_error_types/option_result.md:1
 msgid "Pulling `Result`s out of `Option`s"
-msgstr ""
+msgstr "خارج کردن `Result`ها از `Option`ها"
 
 #: src/SUMMARY.md:172 src/error/multiple_error_types/define_error_type.md:1
 msgid "Defining an error type"
-msgstr ""
+msgstr "تعریف یک نوع خطا"
 
 #: src/SUMMARY.md:173 src/error/multiple_error_types/boxing_errors.md:1
 msgid "`Box`ing errors"
-msgstr ""
+msgstr "بسته‌بندی خطاها با `Box`"
 
 #: src/SUMMARY.md:174 src/error/multiple_error_types/reenter_question_mark.md:1
 msgid "Other uses of `?`"
-msgstr ""
+msgstr "استفاده‌های دیگر از `?`"
 
 #: src/SUMMARY.md:175 src/error/multiple_error_types/wrap_error.md:1
 msgid "Wrapping errors"
-msgstr ""
+msgstr "پیچیدن خطاها"
 
 #: src/SUMMARY.md:176 src/error/iter_result.md:1
 msgid "Iterating over `Result`s"
-msgstr ""
+msgstr "تکرار روی `Result`ها"
 
 #: src/SUMMARY.md:178 src/std.md:1
 msgid "Std library types"
-msgstr ""
+msgstr "تایپ‌های کتابخانه استاندارد"
 
 #: src/SUMMARY.md:179 src/std/box.md:1
 msgid "Box, stack and heap"
-msgstr ""
+msgstr "`Box`، پشته و هیپ"
 
 #: src/SUMMARY.md:180 src/std/vec.md:1
 msgid "Vectors"
-msgstr ""
+msgstr "بردار‌ها"
 
 #: src/SUMMARY.md:181 src/std/str.md:1
 msgid "Strings"
-msgstr ""
+msgstr "رشته‌ها"
 
 #: src/SUMMARY.md:182 src/std/option.md:1
 msgid "`Option`"
-msgstr ""
+msgstr "`Option`"
 
 #: src/SUMMARY.md:184 src/std/result/question_mark.md:1
 msgid "`?`"
-msgstr ""
+msgstr "`?`"
 
 #: src/SUMMARY.md:185 src/std/panic.md:1
 msgid "`panic!`"
-msgstr ""
+msgstr "`panic!`"
 
 #: src/SUMMARY.md:186 src/std/hash.md:1
 msgid "HashMap"
-msgstr ""
+msgstr "`HashMap`"
 
 #: src/SUMMARY.md:187 src/std/hash/alt_key_types.md:1
 msgid "Alternate/custom key types"
-msgstr ""
+msgstr "انواع کلید جایگزین/سفارشی"
 
 #: src/SUMMARY.md:188 src/std/hash/hashset.md:1
 msgid "HashSet"
-msgstr ""
+msgstr "`HashSet`"
 
 #: src/SUMMARY.md:189 src/std/rc.md:1
 msgid "`Rc`"
-msgstr ""
+msgstr "`Rc`"
 
 #: src/SUMMARY.md:190
 msgid "`Arc`"
-msgstr ""
+msgstr "`Arc`"
 
 #: src/SUMMARY.md:192 src/std_misc.md:1
 msgid "Std misc"
-msgstr ""
+msgstr "کتابخانه استاندارد متفرقه"
 
 #: src/SUMMARY.md:193 src/std_misc.md:6 src/std_misc/threads.md:1
 msgid "Threads"
-msgstr ""
+msgstr "نخ‌ها / Thread‌ها"
 
 #: src/SUMMARY.md:194 src/std_misc/threads/testcase_mapreduce.md:1
 msgid "Testcase: map-reduce"
-msgstr ""
+msgstr "نمونه تست: map-reduce"
 
 #: src/SUMMARY.md:195 src/std_misc.md:7 src/std_misc/channels.md:1
 msgid "Channels"
-msgstr ""
+msgstr "کانال‌ها"
 
 #: src/SUMMARY.md:196 src/std_misc/path.md:1
 msgid "Path"
-msgstr ""
+msgstr "مسیر"
 
 #: src/SUMMARY.md:197 src/std_misc.md:8 src/std_misc/file.md:1
 msgid "File I/O"
-msgstr ""
+msgstr "ورودی/خروجی فایل"
 
 #: src/SUMMARY.md:198 src/std_misc/file/open.md:1
 msgid "`open`"
-msgstr ""
+msgstr "`open`"
 
 #: src/SUMMARY.md:199 src/std_misc/file/create.md:1
 msgid "`create`"
-msgstr ""
+msgstr "`create`"
 
 #: src/SUMMARY.md:200 src/std_misc/file/read_lines.md:1
 msgid "`read_lines`"
-msgstr ""
+msgstr "`read_lines`"
 
 #: src/SUMMARY.md:201 src/std_misc/process.md:1
 msgid "Child processes"
-msgstr ""
+msgstr "فرآیندهای زیرمجموعه"
 
 #: src/SUMMARY.md:202 src/std_misc/process/pipe.md:1
 msgid "Pipes"
-msgstr ""
+msgstr "لوله‌ها"
 
 #: src/SUMMARY.md:203 src/std_misc/process/wait.md:1
 msgid "Wait"
-msgstr ""
+msgstr "انتظار"
 
 #: src/SUMMARY.md:204 src/std_misc/fs.md:1
 msgid "Filesystem Operations"
-msgstr ""
+msgstr "عملیات سیستم‌فایل"
 
 #: src/SUMMARY.md:205 src/std_misc/arg.md:1
 msgid "Program arguments"
-msgstr ""
+msgstr "آرگومان‌های برنامه"
 
 #: src/SUMMARY.md:206 src/std_misc/arg/matching.md:1
 msgid "Argument parsing"
-msgstr ""
+msgstr "تجزیه آرگومان‌ها"
 
 #: src/SUMMARY.md:207 src/std_misc/ffi.md:1
 msgid "Foreign Function Interface"
-msgstr ""
+msgstr "رابط عملکرد خارجی"
 
 #: src/SUMMARY.md:209 src/cargo/test.md:1 src/testing.md:1
 msgid "Testing"
-msgstr ""
+msgstr "تست"
 
 #: src/SUMMARY.md:210 src/testing/unit_testing.md:1
 msgid "Unit testing"
-msgstr ""
+msgstr "تست واحد"
 
 #: src/SUMMARY.md:211 src/testing/doc_testing.md:1
 msgid "Documentation testing"
-msgstr ""
+msgstr "تست مستندات"
 
 #: src/SUMMARY.md:212 src/testing/integration_testing.md:1
 msgid "Integration testing"
-msgstr ""
+msgstr "تست یکپارچه‌سازی"
 
 #: src/SUMMARY.md:213
 msgid "Dev-dependencies"
-msgstr ""
+msgstr "وابستگی‌های زمان توسعه"
 
 #: src/SUMMARY.md:215 src/unsafe.md:1
 msgid "Unsafe Operations"
-msgstr ""
+msgstr "عملیات ناامن"
 
 #: src/SUMMARY.md:216 src/unsafe/asm.md:1
 msgid "Inline assembly"
-msgstr ""
+msgstr "اسمبلی درون‌خطی"
 
 #: src/SUMMARY.md:218 src/compatibility.md:1
 msgid "Compatibility"
-msgstr ""
+msgstr "سازگاری"
 
 #: src/SUMMARY.md:219 src/compatibility/raw_identifiers.md:1
 msgid "Raw identifiers"
-msgstr ""
+msgstr "شناسه‌های خام"
 
 #: src/SUMMARY.md:221 src/meta.md:1
 msgid "Meta"
-msgstr ""
+msgstr "فراداده"
 
 #: src/SUMMARY.md:222 src/meta/doc.md:1
 msgid "Documentation"
-msgstr ""
+msgstr "مستندات"
 
 #: src/SUMMARY.md:223 src/meta/playground.md:1
 msgid "Playground"
-msgstr ""
+msgstr "محیط آزمایشی"
 
 #: src/index.md:1
 msgid "Rust by Example"
-msgstr ""
+msgstr "راست همراه با مثال"
 
 #: src/index.md:3
 msgid ""
@@ -785,6 +785,9 @@ msgid ""
 "focusing on safety, speed, and concurrency. It accomplishes these goals by "
 "being memory safe without using garbage collection."
 msgstr ""
+"[Rust](https://www.rust-lang.org/) یک زبان برنامه‌نویسی سیستم‌های مدرن است که "
+"تمرکز آن بر ایمنی، سرعت و اجرای همزمان است. این اهداف را با امن نگه داشتن "
+"حافظه بدون استفاده از جمع‌آوری زباله (Garbage Collection) محقق می‌کند."
 
 #: src/index.md:7
 msgid ""
